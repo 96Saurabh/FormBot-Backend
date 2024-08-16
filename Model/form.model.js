@@ -23,7 +23,7 @@ const FormSchema = new Schema({
       readOnly: { type: Boolean, },
     },
   ],
-  views: { type: Number, default: 0 },
+  views: { type: Number, default: 1 },
 }, { timestamps: true });
 
 module.exports = mongoose.model('Form', FormSchema);
